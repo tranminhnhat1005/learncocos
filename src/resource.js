@@ -1,34 +1,20 @@
-/****************************************************************************
- Copyright (c) 2017-2018 Xiamen Yaji Software Co., Ltd.
- 
- http://www.cocos2d-x.org
- 
- Permission is hereby granted, free of charge, to any person obtaining a copy
- of this software and associated documentation files (the "Software"), to deal
- in the Software without restriction, including without limitation the rights
- to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
- copies of the Software, and to permit persons to whom the Software is
- furnished to do so, subject to the following conditions:
- 
- The above copyright notice and this permission notice shall be included in
- all copies or substantial portions of the Software.
- 
- THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
- IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
- FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
- AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
- LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
- OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
- THE SOFTWARE.
- ****************************************************************************/
+var root = 'res/', loading = 'loading/', login = 'login/', loppy = 'loppy/';
 
 var res = {
-	font_title      : 'res/fonts/MarkerFelt.ttf',
-	img_HelloWorld  : 'res/HelloWorld.png',
-	img_square_green: 'res/square-green.png',
-	img_square_icon : 'res/square-icon.png',
-	img_square_red  : 'res/square-red.png',
-	music_default   : 'res/fundo.mp3'
+	img_btn_facebook: root + login + 'btn-facebook.png',
+	img_btn_google	: root + login + 'btn-google.png',
+	img_btn_login	: root + login + 'btn-login.png',
+	img_btn_register: root + login + 'btn-register.png',
+	img_btn_forgot  : root + login + 'btn-forgot-password.png',
+	img_HelloWorld  : root + 'HelloWorld.png',
+	img_logo  		: root + 'logo.png',
+	img_login_bg    : root + login + 'background.png',
+	img_login_form  : root + login + 'form.png',
+	img_login_input : root + login + 'input.png',
+	img_loppy_bg    : root + loppy + 'background.png',
+	img_progress_bar: root + loading + 'progress-bar.png',
+	img_progress_bg : root + loading + 'progress-background.png',
+	img_progress_txt: root + loading + 'progress-text.png'
 };
 
 var g_resources = [];
